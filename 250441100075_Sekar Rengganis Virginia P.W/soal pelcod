@@ -1,0 +1,24 @@
+# Simpan data diri ke dalam variabel
+nama = "Sekar Rengganis Virginia Putri Wijaya"
+umur = 18
+tinggi = 156
+angka_favorit = 29
+
+# Tampilkan data diri
+print("Nama:", nama)
+print("Umur:", umur)
+print("Tinggi:", tinggi, "cm")
+print("Angka Favorit:", angka_favorit)
+
+# Hitung total harga belanja
+harga_pensil = 2000
+harga_buku = 5000
+
+total = (4 * harga_pensil) + (2 * harga_buku)
+print("Total_harga belanja: Rp.", total)
+
+# Tampilkan angka favorit, cek genap/ganjil
+if angka_favorit % 2 == 0:
+    print("Angka genap")
+else:
+    print("Angka ganjil")
